@@ -117,8 +117,8 @@ class OtherTestViewController: UIViewController {
         self.titleAge.textAlignment = .center
         self.titleAction.textAlignment = .center
         self.contentMovie.numberOfLines = 0
-        self.contentMovie.text = (movieDetail.overview  ?? "") + (movieDetail.overview ?? "")
-        self.overviewMovie = (movieDetail.overview ?? "") + (movieDetail.overview ?? "")
+        self.contentMovie.text = (movieDetail.overview  ?? "")
+        self.overviewMovie = (movieDetail.overview ?? "") 
         let readmoreFont = UIFont.boldSystemFont(ofSize: 12)
         let readmoreFontColor = UIColor.init(rgb: 0xFA1F3FE)
         DispatchQueue.main.async {

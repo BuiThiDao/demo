@@ -39,12 +39,11 @@ class GradientDetailView: UIView {
         
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(red:255/255, green:255/255, blue:255/255, alpha: 0.2).cgColor
-        self.layer.cornerRadius = 50.0
         self.layer.shouldRasterize = false
         self.layer.rasterizationScale = 2
         self.clipsToBounds = true
         self.layer.masksToBounds = true
-        
+        self.roundCorners([.topLeft, .topRight], radius: 50)
         
     }
     
