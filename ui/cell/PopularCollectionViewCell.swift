@@ -9,4 +9,7 @@ import UIKit
 
 class PopularCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var viewShadow: UIView!
+    @IBOutlet weak var titleMovie: UILabel!
+    @IBOutlet weak var imageMostPopular: UIImageView!
 }

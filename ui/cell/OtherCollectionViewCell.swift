@@ -9,4 +9,7 @@ import UIKit
 
 class OtherCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var contentCast: UILabel!
+    @IBOutlet weak var titleCast: UILabel!
+    @IBOutlet weak var imageCast: UIImageView!
 }

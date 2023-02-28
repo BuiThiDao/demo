@@ -8,5 +8,7 @@
 import UIKit
 
 class UpCommingViewCell: UICollectionViewCell {
+    @IBOutlet weak var imageUpComming: UIImageView!
     
+    @IBOutlet weak var viewShadow: UIView!
 }

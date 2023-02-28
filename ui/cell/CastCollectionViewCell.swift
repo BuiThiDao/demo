@@ -9,4 +9,7 @@ import UIKit
 
 class CastCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var titleMovie: UILabel!
+    @IBOutlet weak var titleCast: UILabel!
+    @IBOutlet weak var imageCast: UIImageView!
 }
