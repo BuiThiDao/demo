@@ -154,6 +154,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE0DB91929ADE8BF006A5EF1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CE7CFA7929A901910024C0DE /* menu_4.png */,
+				CE66DB0229AB9A860000AD48 /* ic_ellipse.png */,
+				CEDA450E29A9DA6F004AD539 /* ic_share.png */,
+				CEDA451029A9DA8A004AD539 /* ic_favorite.png */,
+				CEDA450C29A9D1D8004AD539 /* avatar.png */,
+				CEDA450429A9BA8F004AD539 /* ic_scroll_line.png */,
+				CEDA451629A9F164004AD539 /* ic_imdb.png */,
+				CEDA450229A9BA72004AD539 /* Line.png */,
+				CE66DB0029AB99860000AD48 /* ic_ellipse_fill.png */,
+				CE7CFA7B29A9019B0024C0DE /* ic_audio.png */,
+				CE7CFA7F29A906640024C0DE /* ic_line_vert.png */,
+				CE6BFEEE29A8C29500E5D621 /* ic_bell.png */,
+				CE7CFA7529A901860024C0DE /* menu_2.png */,
+				CE7CFA8429A90F590024C0DE /* ic_back.png */,
+				CE7CFA7729A9018B0024C0DE /* menu_3.png */,
+				CE7CFA7329A901800024C0DE /* menu_1.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		CE6BFEAE29A8BAD700E5D621 = {
 			isa = PBXGroup;
 			children = (
@@ -186,23 +209,8 @@
 				CE6BFEBA29A8BAD700E5D621 /* AppDelegate.swift */,
 				CE6BFEBC29A8BAD700E5D621 /* SceneDelegate.swift */,
 				CE6BFEBE29A8BAD700E5D621 /* ViewController.swift */,
-				CE7CFA8429A90F590024C0DE /* ic_back.png */,
-				CE7CFA7B29A9019B0024C0DE /* ic_audio.png */,
-				CE7CFA7929A901910024C0DE /* menu_4.png */,
-				CE7CFA7729A9018B0024C0DE /* menu_3.png */,
-				CE7CFA7529A901860024C0DE /* menu_2.png */,
-				CE7CFA7329A901800024C0DE /* menu_1.png */,
 				CE6BFEC329A8BADA00E5D621 /* Assets.xcassets */,
-				CE66DB0229AB9A860000AD48 /* ic_ellipse.png */,
-				CE66DB0029AB99860000AD48 /* ic_ellipse_fill.png */,
-				CEDA451629A9F164004AD539 /* ic_imdb.png */,
-				CEDA451029A9DA8A004AD539 /* ic_favorite.png */,
-				CEDA450E29A9DA6F004AD539 /* ic_share.png */,
-				CEDA450C29A9D1D8004AD539 /* avatar.png */,
-				CEDA450429A9BA8F004AD539 /* ic_scroll_line.png */,
-				CEDA450229A9BA72004AD539 /* Line.png */,
-				CE7CFA7F29A906640024C0DE /* ic_line_vert.png */,
-				CE6BFEEE29A8C29500E5D621 /* ic_bell.png */,
+				CE0DB91929ADE8BF006A5EF1 /* image */,
 				CE6BFEC529A8BADA00E5D621 /* LaunchScreen.storyboard */,
 				CE6BFEC829A8BADA00E5D621 /* Info.plist */,
 			);
