@@ -28,6 +28,36 @@ extension UIView {
         self.layer.insertSublayer(gradientLayer, at: 0)
     }
     
+    ///
+    func setGradientBoderLeftToRightViewDmo(frameView: CGRect){
+        let colorLeft = UIColor(red: 100/255.0, green: 171/255.0, blue: 219/255.0, alpha: 0.5)
+        let colorRight = UIColor(red: 130/255.0, green: 110/255.0, blue: 200/255.0, alpha: 0.1)
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorLeft.cgColor, colorRight.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 1, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 0, y: 0.5)
+        gradientLayer.locations = [NSNumber(floatLiteral: 0.0), NSNumber(floatLiteral: 1.0)]
+        gradientLayer.frame = frameView
+        self.layer.insertSublayer(gradientLayer, at: 0)
+        self.layer.cornerRadius = 30
+        self.layer.masksToBounds = true
+    }
+    
+    func setGradientBoderRightToLeftViewDmo(frameView: CGRect){
+        let colorLeft = UIColor(red: 100/255.0, green: 171/255.0, blue: 219/255.0, alpha: 0.5)
+        let colorRight = UIColor(red: 130/255.0, green: 110/255.0, blue: 200/255.0, alpha: 0.1)
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = [colorLeft.cgColor, colorRight.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
+        gradientLayer.locations = [NSNumber(floatLiteral: 0.0), NSNumber(floatLiteral: 1.0)]
+        gradientLayer.frame = frameView
+        self.layer.insertSublayer(gradientLayer, at: 0)
+        self.layer.cornerRadius = 30
+        self.layer.masksToBounds = true
+    }
+    ///
+    
     func setGradientBoderLeftToRightView(){
         let colorLeft = UIColor(red: 100/255.0, green: 171/255.0, blue: 219/255.0, alpha: 0.5)
         let colorRight = UIColor(red: 130/255.0, green: 110/255.0, blue: 200/255.0, alpha: 0.1)
@@ -229,6 +259,10 @@ extension UILabel{
             return self.text!.count
         }
     }
+}
+
+extension UIScrollView {
+    var originOnWindow: CGPoint { return convert(contentOffset, to: nil) }
 }
 
 //extension UITapGestureRecognizer {

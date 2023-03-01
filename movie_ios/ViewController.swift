@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var upCommingConllection: UICollectionView!
     @IBOutlet weak var titleUpComming: UILabel!
     var sizeItemUpComming : Double = 0
+    @IBOutlet weak var scrollPage: UIScrollView!
     
     /// Data
     var lstMoviePopular: [MovieRecommend] = []
@@ -82,7 +83,6 @@ class ViewController: UIViewController {
             }
         }
     }
-    
     
     func showIndicatorView() {
         let stackView = UIStackView()

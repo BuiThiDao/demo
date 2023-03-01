@@ -41,8 +41,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func setupTabBarController() -> UITabBarController {
         let tabBarController: UITabBarController = UITabBarController()
         let mainStorboard = UIStoryboard(name: "Main", bundle: nil)
-        
-        let homeVC = mainStorboard.instantiateViewController(withIdentifier: "HomePageViewController")
+        ///HomePageViewController
+        let homeVC = mainStorboard.instantiateViewController(withIdentifier: "HomeViewController")
         homeVC.tabBarItem = UITabBarItem(title: "", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
         
         let menuVC = mainStorboard.instantiateViewController(withIdentifier: "OtherTestViewController")
