@@ -399,7 +399,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         else{
             let heightCollection = collectionView.frame.size.height
             let heightItem = heightCollection
-            let widthItem = collectionView.frame.size.width * 0.45
+            let widthItem = collectionView.frame.size.width * 0.35
             self.sizeItemUpComming = widthItem
             return CGSize(width: widthItem, height: heightItem)
         }
