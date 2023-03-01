@@ -10,6 +10,8 @@
 		CE03D27629ACBE65004F096B /* ScrollDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03D27529ACBE65004F096B /* ScrollDetailViewController.swift */; };
 		CE0DB91529ADAD73006A5EF1 /* OtherTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DB91429ADAD73006A5EF1 /* OtherTestViewController.swift */; };
 		CE0DB91729ADB60F006A5EF1 /* OtherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DB91629ADB60F006A5EF1 /* OtherCollectionViewCell.swift */; };
+		CE41FB5529AE38D7003A2D8B /* HomePopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41FB5429AE38D7003A2D8B /* HomePopularCell.swift */; };
+		CE41FB5729AE38E4003A2D8B /* HomeUpCommingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41FB5629AE38E4003A2D8B /* HomeUpCommingCell.swift */; };
 		CE66DB0129AB99860000AD48 /* ic_ellipse_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = CE66DB0029AB99860000AD48 /* ic_ellipse_fill.png */; };
 		CE66DB0329AB9A860000AD48 /* ic_ellipse.png in Resources */ = {isa = PBXBuildFile; fileRef = CE66DB0229AB9A860000AD48 /* ic_ellipse.png */; };
 		CE6BFEBB29A8BAD700E5D621 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6BFEBA29A8BAD700E5D621 /* AppDelegate.swift */; };
@@ -42,6 +44,7 @@
 		CE7CFA8529A90F590024C0DE /* ic_back.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7CFA8429A90F590024C0DE /* ic_back.png */; };
 		CE82729D29ACC32A000B6DED /* CastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82729C29ACC32A000B6DED /* CastCollectionViewCell.swift */; };
 		CEA080DA29A9A8B600095CED /* ScrollableBottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA080D929A9A8B600095CED /* ScrollableBottomSheetViewController.swift */; };
+		CEC7285129AE08EE00040234 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7285029AE08EE00040234 /* HomeViewController.swift */; };
 		CECE3DA829AB659D00430B73 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECE3DA729AB659D00430B73 /* PopularCollectionViewCell.swift */; };
 		CEDA450329A9BA72004AD539 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDA450229A9BA72004AD539 /* Line.png */; };
 		CEDA450529A9BA8F004AD539 /* ic_scroll_line.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDA450429A9BA8F004AD539 /* ic_scroll_line.png */; };
@@ -78,6 +81,8 @@
 		CE03D27529ACBE65004F096B /* ScrollDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollDetailViewController.swift; sourceTree = "<group>"; };
 		CE0DB91429ADAD73006A5EF1 /* OtherTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTestViewController.swift; sourceTree = "<group>"; };
 		CE0DB91629ADB60F006A5EF1 /* OtherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE41FB5429AE38D7003A2D8B /* HomePopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePopularCell.swift; sourceTree = "<group>"; };
+		CE41FB5629AE38E4003A2D8B /* HomeUpCommingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUpCommingCell.swift; sourceTree = "<group>"; };
 		CE66DB0029AB99860000AD48 /* ic_ellipse_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_ellipse_fill.png; sourceTree = "<group>"; };
 		CE66DB0229AB9A860000AD48 /* ic_ellipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_ellipse.png; sourceTree = "<group>"; };
 		CE6BFEB729A8BAD700E5D621 /* movie_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movie_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +119,7 @@
 		CE7CFA8429A90F590024C0DE /* ic_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_back.png; sourceTree = "<group>"; };
 		CE82729C29ACC32A000B6DED /* CastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEA080D929A9A8B600095CED /* ScrollableBottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableBottomSheetViewController.swift; sourceTree = "<group>"; };
+		CEC7285029AE08EE00040234 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CECE3DA729AB659D00430B73 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEDA450229A9BA72004AD539 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
 		CEDA450429A9BA8F004AD539 /* ic_scroll_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_scroll_line.png; sourceTree = "<group>"; };
@@ -175,6 +181,15 @@
 				CE7CFA7329A901800024C0DE /* menu_1.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		CE41FB5329AE389E003A2D8B /* cell_home */ = {
+			isa = PBXGroup;
+			children = (
+				CE41FB5429AE38D7003A2D8B /* HomePopularCell.swift */,
+				CE41FB5629AE38E4003A2D8B /* HomeUpCommingCell.swift */,
+			);
+			path = cell_home;
 			sourceTree = "<group>";
 		};
 		CE6BFEAE29A8BAD700E5D621 = {
@@ -258,6 +273,7 @@
 		CE6BFEF229A8C73400E5D621 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				CE41FB5329AE389E003A2D8B /* cell_home */,
 				CE6BFEF329A8C73B00E5D621 /* cell */,
 				CE7CFA7129A901100024C0DE /* CustomCategoryMovieView.swift */,
 			);
@@ -304,6 +320,7 @@
 				CEA080D929A9A8B600095CED /* ScrollableBottomSheetViewController.swift */,
 				CE03D27529ACBE65004F096B /* ScrollDetailViewController.swift */,
 				CE0DB91429ADAD73006A5EF1 /* OtherTestViewController.swift */,
+				CEC7285029AE08EE00040234 /* HomeViewController.swift */,
 			);
 			path = screen;
 			sourceTree = "<group>";
@@ -459,6 +476,7 @@
 				CEDA450729A9BC4F004AD539 /* GradientDetail.swift in Sources */,
 				CEA080DA29A9A8B600095CED /* ScrollableBottomSheetViewController.swift in Sources */,
 				CE7CFA6729A8F40A0024C0DE /* MovieRecommend.swift in Sources */,
+				CE41FB5529AE38D7003A2D8B /* HomePopularCell.swift in Sources */,
 				CE7CFA7E29A903CF0024C0DE /* extension.swift in Sources */,
 				CECE3DA829AB659D00430B73 /* PopularCollectionViewCell.swift in Sources */,
 				CE7CFA6929A8F4330024C0DE /* Cast.swift in Sources */,
@@ -469,6 +487,7 @@
 				CE0DB91529ADAD73006A5EF1 /* OtherTestViewController.swift in Sources */,
 				CE7CFA8329A90D1B0024C0DE /* DetailViewController.swift in Sources */,
 				CEDA451529A9EEB0004AD539 /* UiImdb.swift in Sources */,
+				CEC7285129AE08EE00040234 /* HomeViewController.swift in Sources */,
 				CE7CFA6D29A8F4DD0024C0DE /* Configs.swift in Sources */,
 				CE0DB91729ADB60F006A5EF1 /* OtherCollectionViewCell.swift in Sources */,
 				CE6BFEED29A8BB8000E5D621 /* GradientBackground.swift in Sources */,
@@ -481,6 +500,7 @@
 				CE6BFEBD29A8BAD700E5D621 /* SceneDelegate.swift in Sources */,
 				CEDA451329A9DAC7004AD539 /* GradientBtnView.swift in Sources */,
 				CE7CFA6B29A8F46A0024C0DE /* MovieDetail.swift in Sources */,
+				CE41FB5729AE38E4003A2D8B /* HomeUpCommingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
