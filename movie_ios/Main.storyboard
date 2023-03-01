@@ -544,7 +544,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtJ-WB-SsD" userLabel="title">
-                                        <rect key="frame" x="60" y="0.0" width="294" height="23"/>
+                                        <rect key="frame" x="60" y="30" width="294" height="23"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0a8-XN-tOg">
                                                 <rect key="frame" x="0.0" y="0.0" width="46" height="22"/>
@@ -577,7 +577,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dp3-8v-0ph" userLabel="search" customClass="GradientSearchView" customModule="movie_ios" customModuleProvider="target">
-                                        <rect key="frame" x="50" y="44" width="314" height="50"/>
+                                        <rect key="frame" x="50" y="74" width="314" height="50"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="l4D-Zj-1M0">
                                                 <rect key="frame" x="8" y="14.5" width="21" height="21"/>
@@ -609,7 +609,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8KU-O6-Sd0" userLabel="view_popular">
-                                        <rect key="frame" x="0.0" y="120" width="414" height="179"/>
+                                        <rect key="frame" x="0.0" y="150" width="414" height="179"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Most Popular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze2-d8-WmN">
                                                 <rect key="frame" x="50" y="0.0" width="314" height="21.5"/>
@@ -699,14 +699,14 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFT-fq-w0X" userLabel="indicator_popular">
-                                        <rect key="frame" x="50" y="316" width="314" height="8"/>
+                                        <rect key="frame" x="50" y="346" width="314" height="8"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="8" id="LQd-Qh-A5k"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mHT-tw-ja3" userLabel="view_menu">
-                                        <rect key="frame" x="50" y="344" width="314" height="95"/>
+                                        <rect key="frame" x="50" y="374" width="314" height="95"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="NZA-Nz-Nr7">
                                                 <rect key="frame" x="0.0" y="0.0" width="314" height="95"/>
@@ -756,7 +756,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gl5-ad-la9" userLabel="view_upComming">
-                                        <rect key="frame" x="0.0" y="474" width="414" height="278"/>
+                                        <rect key="frame" x="0.0" y="504" width="414" height="278"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Up Comming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWR-zr-KdD" userLabel="title">
                                                 <rect key="frame" x="50" y="0.0" width="314" height="21.5"/>
@@ -852,10 +852,10 @@
                                     <constraint firstItem="Gl5-ad-la9" firstAttribute="leading" secondItem="BQb-HZ-wgo" secondAttribute="leading" id="dNF-hz-BRi"/>
                                     <constraint firstItem="gFT-fq-w0X" firstAttribute="leading" secondItem="BQb-HZ-wgo" secondAttribute="leading" constant="50" id="dQP-Qm-AFd"/>
                                     <constraint firstItem="TtJ-WB-SsD" firstAttribute="leading" secondItem="BQb-HZ-wgo" secondAttribute="leading" constant="60" id="gu5-2w-3oD"/>
-                                    <constraint firstAttribute="bottom" secondItem="Gl5-ad-la9" secondAttribute="bottom" constant="-4" id="htB-fL-4sU"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gl5-ad-la9" secondAttribute="bottom" constant="20" id="htB-fL-4sU"/>
                                     <constraint firstItem="Gl5-ad-la9" firstAttribute="centerX" secondItem="BQb-HZ-wgo" secondAttribute="centerX" id="ikr-CB-jkB"/>
                                     <constraint firstItem="mHT-tw-ja3" firstAttribute="centerX" secondItem="BQb-HZ-wgo" secondAttribute="centerX" id="ixh-Ej-P3c"/>
-                                    <constraint firstItem="TtJ-WB-SsD" firstAttribute="top" secondItem="BQb-HZ-wgo" secondAttribute="top" id="lf8-Cc-mCC"/>
+                                    <constraint firstItem="TtJ-WB-SsD" firstAttribute="top" secondItem="BQb-HZ-wgo" secondAttribute="top" constant="30" id="lf8-Cc-mCC"/>
                                     <constraint firstItem="8KU-O6-Sd0" firstAttribute="centerX" secondItem="BQb-HZ-wgo" secondAttribute="centerX" id="mVX-uy-LKJ"/>
                                     <constraint firstAttribute="trailing" secondItem="TtJ-WB-SsD" secondAttribute="trailing" constant="60" id="oQK-eh-eFr"/>
                                     <constraint firstItem="gFT-fq-w0X" firstAttribute="centerX" secondItem="BQb-HZ-wgo" secondAttribute="centerX" id="rC6-aN-sWf"/>
@@ -875,7 +875,7 @@
                             <constraint firstItem="BQb-HZ-wgo" firstAttribute="top" secondItem="bid-ho-Hv8" secondAttribute="top" id="ExF-fq-8Ul"/>
                             <constraint firstAttribute="trailing" secondItem="BQb-HZ-wgo" secondAttribute="trailing" id="Imb-Ry-COT"/>
                             <constraint firstItem="BQb-HZ-wgo" firstAttribute="leading" secondItem="bid-ho-Hv8" secondAttribute="leading" id="QpK-jX-36k"/>
-                            <constraint firstAttribute="bottom" secondItem="BQb-HZ-wgo" secondAttribute="bottom" id="WNH-dE-Zvy"/>
+                            <constraint firstItem="BQb-HZ-wgo" firstAttribute="height" secondItem="bid-ho-Hv8" secondAttribute="height" id="ebV-c8-eW5"/>
                             <constraint firstItem="BQb-HZ-wgo" firstAttribute="width" secondItem="bid-ho-Hv8" secondAttribute="width" id="ho7-QK-5XV"/>
                         </constraints>
                     </view>
