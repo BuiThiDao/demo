@@ -637,19 +637,43 @@
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="958-bq-8zf">
                                                                     <rect key="frame" x="0.0" y="0.0" width="305" height="128"/>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXo-gB-93a" userLabel="titleMovie">
-                                                                    <rect key="frame" x="26" y="93" width="195" height="21"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXo-gB-93a" userLabel="titleMovie">
+                                                                    <rect key="frame" x="26" y="92.5" width="44.5" height="20.5"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sLP-Hu-wEx" userLabel="view_imdb">
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sLP-Hu-wEx" userLabel="view_imdb" customClass="UiImdb" customModule="movie_ios" customModuleProvider="target">
                                                                     <rect key="frame" x="235" y="99" width="44" height="14"/>
+                                                                    <subviews>
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_imdb.png" translatesAutoresizingMaskIntoConstraints="NO" id="cze-aN-LgT">
+                                                                            <rect key="frame" x="3" y="0.0" width="18" height="14"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="width" constant="18" id="4TH-qg-15w"/>
+                                                                                <constraint firstAttribute="height" constant="14" id="feK-TO-Qnc"/>
+                                                                            </constraints>
+                                                                        </imageView>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="8.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GM5-rr-Foq">
+                                                                            <rect key="frame" x="15" y="3" width="14" height="8"/>
+                                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="8"/>
+                                                                            <nil key="textColor"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
                                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="44" id="FF0-IR-EQt"/>
                                                                         <constraint firstAttribute="height" constant="14" id="Ffg-te-Qk7"/>
+                                                                        <constraint firstItem="GM5-rr-Foq" firstAttribute="centerY" secondItem="sLP-Hu-wEx" secondAttribute="centerY" id="MUg-Ef-gAK"/>
+                                                                        <constraint firstItem="GM5-rr-Foq" firstAttribute="leading" secondItem="cze-aN-LgT" secondAttribute="trailing" constant="2" id="RKj-S8-jvD"/>
+                                                                        <constraint firstItem="cze-aN-LgT" firstAttribute="centerY" secondItem="sLP-Hu-wEx" secondAttribute="centerY" id="UbW-9q-sld"/>
+                                                                        <constraint firstItem="cze-aN-LgT" firstAttribute="leading" secondItem="sLP-Hu-wEx" secondAttribute="leading" constant="3" id="nwL-1t-8He"/>
                                                                     </constraints>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                            <real key="value" value="6"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
                                                                 </view>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4I-j6-dMi" userLabel="view_shadow">
                                                                     <rect key="frame" x="0.0" y="0.0" width="305" height="128"/>

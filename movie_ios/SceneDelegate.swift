@@ -25,13 +25,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithTransparentBackground()
         UINavigationBar.appearance().standardAppearance = appearance
-        
+
         let lineView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 1))
         lineView.backgroundColor = UIColor(red:255/255, green:255/255, blue:255/255, alpha: 0.2)
-        
+
         tabBarC.tabBar.addSubview(lineView)
         tabBarC.tabBar.barTintColor = UIColor.init(rgb: 0xFF4A648C)
-        
+//
         window?.windowScene = windowScene
         window?.rootViewController = navigation
         
